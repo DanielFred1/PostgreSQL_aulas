@@ -1,0 +1,12 @@
+SELECT numero, nome FROM banco;
+SELECT * FROM banco WHERE numero = 247;
+SELECT * FROM banco ORDER BY numero Desc;
+SELECT * FROM banco WHERE nome LIKE '%Brasil%';
+SELECT * FROM banco WHERE nome ILIKE '%Brasil%';
+SELECT COUNT(*) FROM banco;
+SELECT COUNT(*) FROM banco WHERE nome ILIKE '%Brasil%';
+SELECT numero, nome AS LISTA_DE_BANCOS FROM banco;
+SELECT numero, nome AS LISTA_DE_CLIENTES FROM cliente ORDER BY numero;
+SELECT numero, nome FROM cliente WHERE nome LIKE 'A%' ORDER BY numero;
+SELECT COUNT(*) FROM cliente WHERE nome LIKE 'A%';
+SELECT numero, nome FROM cliente ORDER BY nome;
